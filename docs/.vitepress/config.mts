@@ -16,6 +16,8 @@ export default defineConfig({
         text: 'Vue相关',
         items: [
           { text: '说说你对vue的理解', link: '/Vue/01.md' },
+          { text: 'Vue指令', link: '/Vue/02.md' },
+          { text: 'Vue插件', link: '/Vue/03.md' }
         ]
       },
       {
