@@ -3,4 +3,4 @@
 
 [build]
   publish = "docs/.vitepress/dist"
-  command = "pnpm docs:build && pnpm docs:lunaria:build"
+  command = "npm run docs:build"
