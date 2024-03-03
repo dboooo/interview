@@ -25,6 +25,30 @@ export default defineConfig({
         items: [
           { text: '说说你对React的理解', link: '/React/01.md' }
         ]
+      },
+      {
+        text: '浏览器相关',
+        items: [
+          { text: '浏览器原理', link: '/Browser/01.md' }
+        ]
+      },
+      {
+        text: 'JS存储和网络基础知识',
+        items: [
+          { text: '前端本地存储方式', link: '/Store/01.md' }
+        ],
+      },
+      {
+        text: 'js常用方法',
+        items: [
+          { text: '数组常用方法', link: '/Javascript/01.md' }
+        ]
+      },
+      {
+        text: '网络',
+        items: [
+          { text: '常见网络攻击方式', link: '/Network/01.md' }
+        ]
       }
     ],
 
