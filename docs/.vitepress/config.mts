@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '主页', link: '/' },
       { text: '面试题目', link: '/Vue/01.md' },
     ],
 
@@ -29,7 +29,7 @@ export default defineConfig({
       {
         text: '浏览器相关',
         items: [
-          { text: '浏览器原理', link: '/Browser/01.md' }
+          { text: '浏览器解析原理', link: '/Browser/01.md' }
         ]
       },
       {
@@ -48,6 +48,18 @@ export default defineConfig({
         text: '网络',
         items: [
           { text: '常见网络攻击方式', link: '/Network/01.md' }
+        ]
+      },
+      {
+        text: '性能优化',
+        items: [
+          { text: '性能优化之LCP', link: '/Speed/01.md' }
+        ]
+      },
+      {
+        text: '前端算法',
+        items: [
+          { text: '算法', link: '/Algorithm/01.md' }
         ]
       }
     ],
