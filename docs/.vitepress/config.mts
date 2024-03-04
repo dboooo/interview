@@ -17,7 +17,8 @@ export default defineConfig({
         items: [
           { text: '说说你对vue的理解', link: '/Vue/01.md' },
           { text: 'Vue指令', link: '/Vue/02.md' },
-          { text: 'Vue插件', link: '/Vue/03.md' }
+          { text: 'Vue插件', link: '/Vue/03.md' },
+          { text: 'Vue生命周期', link: '/Vue/04.md' }
         ]
       },
       {
@@ -41,7 +42,8 @@ export default defineConfig({
       {
         text: 'js常用方法',
         items: [
-          { text: '数组常用方法', link: '/Javascript/01.md' }
+          { text: '数组常用方法', link: '/Javascript/01.md' },
+          { text: '事件委托', link: '/Javascript/02.md' }
         ]
       },
       {

@@ -14,5 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-rc.44"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-blu": "^0.1.9"
   }
 }
