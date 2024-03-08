@@ -17,17 +17,19 @@ hero:
       link: https://github.com/dboooo/interview
 
 features:
-  - icon: fa-book
+  
+  - icon: 🚀
     title: 更加全面系统的面试资料
-    details: 持续更新中...
-  - icon:
-      src: /cool-feature-icon.svg
-    title: Another cool feature
-    details: Lorem ipsum...
-  - icon:
-      dark: /dark-feature-icon.svg
-      light: /light-feature-icon.svg
-    title: Another cool feature
-    details: Lorem ipsum...
+    details: 持续更新中···
+    
+  - icon: 📝 
+    title: 持续更新前沿前端知识
+    details: 更新至···
+    
+  - icon: ❤ 
+    title: 欢迎你参与贡献
+    details: Pr Welcome···
+
+lastUpdated: true
 ---
 
