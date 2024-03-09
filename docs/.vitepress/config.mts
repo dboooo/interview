@@ -21,10 +21,8 @@ export default defineConfig({
           { text: 'Vue插件', link: '/Vue/03.md' },
           { text: 'Vue生命周期', link: '/Vue/04.md' },
           { text: 'Vue2和Vue3的区别', link: '/Vue/05.md' },
-          {
-            text: 'Vue如何做权限管理',
-            link: '/Vue/06.md'
-          }
+          { text: 'Vue如何做权限管理', link: '/Vue/06.md' },
+          { text: 'Vue组件间通信', link: '/Vue/07.md' },
         ]
       },
       {
@@ -57,7 +55,13 @@ export default defineConfig({
           { text: 'js作用域链', link: '/Javascript/05.md' },
           { text: 'this指向问题', link: '/Javascript/06.md' },
           { text: 'JS原型, 原型链, 继承,', link: '/Javascript/07.md' },
-          { text: 'JS的new操作', link: '/Javascript/08.md' }
+          { text: 'JS的new操作', link: '/Javascript/08.md' },
+        ]
+      },
+      {
+        text: '具体项目问题',
+        items: [
+          { text: '前端如何接受后端发来的文件流并下载', link: '/Detail/01.md' }
         ]
       },
       {
@@ -81,15 +85,7 @@ export default defineConfig({
           { text: '算法', link: '/Algorithm/01.md' }
         ]
       },
-      {
-        text: '具体项目问题',
-        items: [
-          {
-            text: '前端接受到后端发送的文件如何展示存储',
-            link: '/Detail/01.md'
-          }
-        ]
-      }
+
     ],
 
     socialLinks: [
