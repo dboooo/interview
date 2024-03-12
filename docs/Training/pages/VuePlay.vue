@@ -1,6 +1,8 @@
----
-layout: home
----
+<template>
+  <div>
+    <button id="counter" @click="increment">{{ count }}</button>
+  </div>
+</template>
 
 <script setup>
 import { ref, nextTick } from 'vue'
@@ -14,7 +16,6 @@ async function increment() {
   console.log(document.getElementById('counter').textContent) // 0
 
   await nextTick(()=>{
-    console.log(document.getElementById('counter').textContent)
     console.log('回调函数执行');
   })
   // DOM 此时已经更新
@@ -22,6 +23,6 @@ async function increment() {
 }
 </script>
 
-# 用于做写前端业务代码playground
+<style lang="scss" scoped>
 
-<button id="counter" @click="increment">{{ count }}</button>
+</style>

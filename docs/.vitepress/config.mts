@@ -17,12 +17,17 @@ export default defineConfig({
         text: 'Vue相关',
         items: [
           { text: '说说你对vue的理解', link: '/Vue/01.md' },
+          { text: 'Vue2和Vue3的区别', link: '/Vue/05.md' },
           { text: 'Vue指令', link: '/Vue/02.md' },
           { text: 'Vue插件', link: '/Vue/03.md' },
           { text: 'Vue生命周期', link: '/Vue/04.md' },
-          { text: 'Vue2和Vue3的区别', link: '/Vue/05.md' },
           { text: 'Vue如何做权限管理', link: '/Vue/06.md' },
           { text: 'Vue组件间通信', link: '/Vue/07.md' },
+          { text: '对nextTick的理解', link: '/Vue/08.md' },
+          { text: 'Vue的slot的理解', link: '/Vue/09.md' },
+          { text: '对keep-alive的理解', link: '/Vue/10.md' },
+          { text: '对keep-Vue的diff算法', link: '/Vue/11.md' },
+          { text: 'Vue的SSR', link: '/Vue/12.md' },
         ]
       },
       {
@@ -36,7 +41,8 @@ export default defineConfig({
         text: '浏览器相关',
         items: [
           { text: '浏览器解析原理', link: '/Browser/01.md' },
-          { text: '事件委托', link: '/Browser/02.md' }
+          { text: '事件委托', link: '/Browser/02.md' },
+          { text: '跨域处理', link: '/Browser/03.md' },
         ]
       },
       {
@@ -68,9 +74,7 @@ export default defineConfig({
         text: '网络',
         items: [
           { text: '常见网络攻击方式', link: '/Network/01.md' },
-          {
-            text: 'Https是如何保证安全的', link: '/Network/02.md'
-          }
+          { text: 'HTTP与HTTPS', link: '/Network/02.md' }
         ]
       },
       {
