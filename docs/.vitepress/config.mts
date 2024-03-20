@@ -72,10 +72,11 @@ export default defineConfig({
         items: [
           { text: '常见网络攻击方式', link: '/Network/01.md' },
           { text: 'HTTP与HTTPS', link: '/Network/02.md' },
-          { text: '前端安全问题', link: '/Network/03.md' },
+          { text: 'http的安全策略', link: '/Network/03.md' },
           { text: '在使用https协议的网站里能否使用http请求', link: '/Network/04.md' },
-          { text: 'Http Smuggling Attack (http走私攻击) ', link: '/Network/05.md' },
-          { text: 'XSS(Cross-Site Scripting) 介绍', link: '/Network/06.md' }]
+          { text: 'OSI 七层模型', link: '/Network/06.md' },
+          { text: 'TCP/IP 协议 ', link: '/Network/05.md' },
+        ]
       },
       {
         text: '具体项目问题',
