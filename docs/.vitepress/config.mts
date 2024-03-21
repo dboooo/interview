@@ -47,8 +47,9 @@ export default defineConfig({
           { text: 'js作用域链', link: '/Javascript/05.md' },
           { text: 'this指向问题', link: '/Javascript/06.md' },
           { text: 'JS原型, 原型链, 继承,', link: '/Javascript/07.md' },
-          { text: 'JS的new操作', link: '/Javascript/08.md' },
+          { text: 'Promise', link: '/Javascript/08.md' },
           { text: '事件循环', link: '/Javascript/09.md' },
+          { text: 'Promise', link: '/Javascript/10.md' },
         ]
       },
       {
