@@ -84,7 +84,14 @@ export default defineConfig({
         items: [
           { text: '前端如何接受后端发来的文件流并下载', link: '/Detail/01.md' },
           { text: '如何减少白屏的时间', link: '/Detail/02.md' },
+          { text: '如何实现markdown和html文件互相转换', link: '/Detail/03.md' }
 
+        ]
+      },
+      {
+        text: 'Typescript',
+        items: [
+          { text: 'Type和interface的区别', link: '/Typescript/01.md' }
         ]
       },
       {
@@ -93,6 +100,12 @@ export default defineConfig({
           { text: '算法', link: '/Algorithm/01.md' }
         ]
       },
+      {
+        text: '设计模式',
+        items: [
+          { text: 'Vue2和Vue3的app注册方式体现了哪种设计模式(单例模式)', link: '/DesignModel/01.md' }
+        ]
+      }
 
     ],
 
