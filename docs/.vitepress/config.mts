@@ -121,6 +121,12 @@ export default defineConfig({
           items: [
             { text: 'node模块', link: '/knowledge/node/01.md' }
           ]
+        },
+        {
+          text: '音视频知识',
+          items: [
+            { text: '一个图像的组成', link: '/knowledge/AV/01.md' }
+          ]
         }
       ]
     },
