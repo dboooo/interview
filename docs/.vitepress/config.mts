@@ -127,6 +127,12 @@ export default defineConfig({
           items: [
             { text: '一个图像的组成', link: '/knowledge/AV/01.md' }
           ]
+        },
+        {
+          text: 'Vue开发知识',
+          items: [
+            { text: 'Vue组件间如何实现通信，以及一些常见误区和错误', link: '/knowledge/Vue/01.md' }
+          ]
         }
       ]
     },
