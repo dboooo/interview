@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { VueReplMdPlugin } from 'vitepress-plugin-vue-repl';
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -140,5 +142,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dboooo' }
     ]
-  }
+  },
+  markdown: {
+      // 启用vue-sfc插件
+    config: (md) => {
+      md.use(VueReplMdPlugin)
+    }
+  },
 })

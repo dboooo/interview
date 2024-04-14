@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "前端面试指南收集"
-  text: "知识体系构架"
+  text: "前端相关的知识体系构架收集"
   image:
     src: /avatar.jpg
     alt: 作者

@@ -10,11 +10,15 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": ["interview" , "front_end_development"],
+  "keywords": [
+    "interview",
+    "front_end_development"
+  ],
   "author": "dboo",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.44"
+    "vitepress": "1.0.0-rc.44",
+    "vitepress-plugin-vue-repl": "^0.0.9"
   },
   "dependencies": {
     "vue": "^3.4.21",
